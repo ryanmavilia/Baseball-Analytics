@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+#SQL
+.sqlite
+
 # Session Data files
 .RData
 
