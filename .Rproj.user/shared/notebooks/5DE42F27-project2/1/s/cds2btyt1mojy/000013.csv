@@ -1,0 +1,7 @@
+"0","payroll_df %>%"
+"0","  ggplot(mapping = aes(x=standardized_payroll, y = winPercentage)) +"
+"0","  geom_point() +"
+"0","  geom_smooth(method = lm)+"
+"0","  xlab(label=""Standardized Payroll"") +"
+"0","  ylab(label=""Win Percentage"") +"
+"0","    ggtitle(""Standardized Payroll vs Win Percentage for All Teams & All Years"")"

@@ -1,0 +1,2 @@
+"0","# make sure you write the path to your sqlite path here"
+"0","db <- DBI::dbConnect(RSQLite::SQLite(), ""lahman2016.sqlite"")"

@@ -1,0 +1,4 @@
+"0","payroll_df <- payroll_df %>%"
+"0","  mutate(expected_win_pct = (50 + 2.5 * standardized_payroll)) %>%"
+"0","  mutate(efficiency = winPercentage - expected_win_pct)"
+"0","payroll_df"

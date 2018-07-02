@@ -1,0 +1,9 @@
+"0","SELECT teamfran.franchName AS name, MAX(100.0 * team.W / team.G) AS winPercentage, SUM(sal.salary) AS payroll, team.W, team.G, teamfran.franchID, team.yearID
+FROM Teams AS team, Salaries AS sal 
+INNER JOIN teamsFranchises AS teamfran ON
+      team.yearID = sal.yearID 
+      AND teamfran.franchID = team.franchID 
+      AND team.teamID = sal.teamID
+      AND team.franchID = teamFran.franchID
+      AND team.yearID = sal.yearID
+GROUP BY sal.yearID, sal.teamID"

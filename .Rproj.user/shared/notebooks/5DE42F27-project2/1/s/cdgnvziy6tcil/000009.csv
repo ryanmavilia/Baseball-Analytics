@@ -1,0 +1,8 @@
+"0","payroll_df %>%"
+"0","  filter(teamID %in% c(""OAK"", ""BOS"", ""BAL"", ""NYA"", ""ATL"", ""TBA"")) %>%"
+"0","  ggplot(mapping = aes(x=yearID, y=efficiency, color = teamID)) +"
+"0","  geom_smooth() +"
+"0","  geom_point() +"
+"0","  labs(color='Team Colors') +"
+"0","  xlab(label=""Year"") +"
+"0","  ylab(label=""Efficiency"")"

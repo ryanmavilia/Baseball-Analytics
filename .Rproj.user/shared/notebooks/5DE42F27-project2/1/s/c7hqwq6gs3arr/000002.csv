@@ -1,0 +1,4 @@
+"0","payroll_df <- payroll_df %>%"
+"0","  group_by(yearID) %>%"
+"0","  mutate(standardized_payroll = (payroll-mean(payroll))/sd(payroll))"
+"0","payroll_df[,c(5:8)]"
